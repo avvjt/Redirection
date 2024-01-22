@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <!--button1-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="first game"
+        android:id="@+id/firstGame"
+        android:layout_marginBottom="20dp"/>
+
+    <!--button2-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sec game"
+        android:id="@+id/secGame"
+        android:layout_marginBottom="20dp"/>
+
+    <!--button3-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third game"
+        android:id="@+id/thirdGame"
+        android:layout_marginBottom="20dp"/>
+
+    <!--button4-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fourth game"
+        android:id="@+id/fourthGame"
+        android:layout_marginBottom="20dp"/>
+
+    <!--button5-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fifth game"
+        android:id="@+id/fifthGame"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+</LinearLayout>
